@@ -14,7 +14,7 @@ public class Main {
                 throw new Exception1("Exception1 due to the value of a.");
             }
             else {
-                throw new Exception1("Exception2 due to the value of a.");
+                throw new Exception2("Exception2 due to the value of a.");
             }
 
         } catch (Exception1 | Exception2 e) {
